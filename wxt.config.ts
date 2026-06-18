@@ -5,5 +5,6 @@ export default defineConfig({
   manifest: {
     name: 'deepseek-plugin',
     description: 'DeepSeek Chrome plugin scaffold.',
+    permissions: ['storage'],
   },
 });
