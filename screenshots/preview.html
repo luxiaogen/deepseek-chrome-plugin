@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>deepseek-plugin preview</title>
+    <link rel="stylesheet" href="./preview-bundle.css" />
+  </head>
+  <body>
+    <div class="stage-grid">
+      <div class="scene">
+        <div class="scene-label">Popup（工具栏弹窗）</div>
+        <div id="popup"></div>
+      </div>
+
+      <div class="scene">
+        <div class="scene-label">面板入口（小鲸鱼）</div>
+        <div class="launcher-stage" id="launcher"></div>
+      </div>
+
+      <div class="scene">
+        <div class="scene-label">时间线 Tab</div>
+        <div class="panel-stage" id="panel-timeline"></div>
+      </div>
+
+      <div class="scene">
+        <div class="scene-label">提示词 Tab</div>
+        <div class="panel-stage" id="panel-prompts"></div>
+      </div>
+
+      <div class="scene">
+        <div class="scene-label">整理 Tab</div>
+        <div class="panel-stage" id="panel-library"></div>
+      </div>
+
+      <div class="scene">
+        <div class="scene-label">效果 Tab</div>
+        <div class="panel-stage" id="panel-effects"></div>
+      </div>
+
+      <div class="scene">
+        <div class="scene-label">视觉特效 · 雪</div>
+        <div class="effect-stage" id="effect-snow"></div>
+      </div>
+
+      <div class="scene">
+        <div class="scene-label">视觉特效 · 樱花</div>
+        <div class="effect-stage" id="effect-sakura"></div>
+      </div>
+
+      <div class="scene">
+        <div class="scene-label">视觉特效 · 雨</div>
+        <div class="effect-stage" id="effect-rain"></div>
+      </div>
+    </div>
+
+    <script src="./preview-bundle.js"></script>
+  </body>
+</html>
